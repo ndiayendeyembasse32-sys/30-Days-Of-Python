@@ -60,5 +60,28 @@ print("variable_remainder :" , division_modulo)
 # 10 Calculez num_one à la puissance num_two et assignez la valeur à une variable exp.
 exp = num_one ** num_two
 print("exp :", exp)
+# 11 Calculez la division entière de num_one par num_two et assignez cette valeur à la variable floor_division.
+floor_division = num_one // num_two
+print("variable_floor_division :" , floor_division)
+# 12 Le rayon d'un cercle est de 30 mètres.
+# Calculez l'aire d'un cercle et assignez la valeur à une variable nommée aire_du_cercle.
+# Calculez la circonférence d'un cercle et assignez la valeur à une variable nommée circum_of_circle
+# Prendre le rayon comme entrée utilisateur et calculer la surface.
+import math
 
+Rayon initial de 30 mètres
+rayon = 30
 
+ 1. Calcul de l'aire du cercle (Formule : pi * r²)
+aire_du_cercle = math.pi * (rayon ** 2)
+print("Aire du cercle :", aire_du_cercle, "m²")
+
+ 2. Calcul de la circonférence (Formule : 2 * pi * r)
+circum_of_circle = 2 * math.pi * rayon
+print("Circonférence du cercle :", circum_of_circle, "m")
+
+ 3. Rayon saisi par l'utilisateur et calcul de la surface
+float() permet de convertir le texte saisi au clavier en nombre décimal
+rayon_utilisateur = float(input("Entrez le rayon du cercle en mètres : "))
+surface_utilisateur = math.pi * (rayon_utilisateur ** 2)
+print("La surface pour ce rayon est de :", surface_utilisateur, "m²")
