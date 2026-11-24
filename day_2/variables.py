@@ -85,3 +85,14 @@ float() permet de convertir le texte saisi au clavier en nombre décimal
 rayon_utilisateur = float(input("Entrez le rayon du cercle en mètres : "))
 surface_utilisateur = math.pi * (rayon_utilisateur ** 2)
 print("La surface pour ce rayon est de :", surface_utilisateur, "m²")
+# 13 Utilisez la fonction de saisie intégrée pour obtenir le prénom, le nom, le pays et l'âge d'un utilisateur et stockez ces valeurs dans les variables correspondantes.
+# Demande et stockage des informations de l'utilisateur
+prenom = input("Entrez votre prénom : ")
+nom = input("Entrez votre nom de famille : ")
+pays = input("Entrez votre pays : ")
+age = int(input("Entrez votre âge : "))
+
+# Affichage des résultats pour vérifier
+print(f"Bonjour {prenom} {nom}, vous avez {age} ans et vous habitez en/au {pays}.")
+# 14 Exécutez la commande help('keywords') dans l'interpréteur Python ou dans votre fichier pour vérifier la présence des mots réservés ou mots-clés de Python.
+help('keywords')
